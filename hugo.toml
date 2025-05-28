@@ -36,3 +36,7 @@ weight = 10
     name = "关于"
     url = "/about/"
     weight = 1
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Yuki&#39;s Blog</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Mathematica 基础
+快捷键
+
+  
+      
+          
+          
+          
+      
+  
+  
+      
+          Shift&#43;Enter
+          计算单元
+          
+      
+      
+          Alt&#43;.
+          放弃计算
+          
+      
+      
+          Ctrl&#43;K
+          完整指令名
+          
+      
+      
+          F1
+          查找所选函数
+          
+      
+      
+          Alt&#43;/
+          取消、注释选择
+          
+      
+      
+          Ctrl&#43;_
+          下标
+          
+      
+      
+          Ctrl&#43;6
+          幂，上标
+          
+      
+      
+          Ctrl&#43;2
+          根号
+          
+      
+      
+          Ctrl&#43;/
+          除，分数
+          
+      
+      
+          Ctrl&#43;Shift&#43;K
+          模板
+          
+      
+      
+          Alt&#43;1，2，3，4，5，6
+          N级标题
+          
+      
+      
+          Ctrl&#43;L
+          上一个单元的输入
+          
+      
+      
+          Ctrl&#43;Shift&#43;L
+          上一个单元的输出
+          
+      
+      
+          Ctrl&#43;=
+          内嵌的自由格式输入
+          
+      
+      
+          Ctrl&#43;4
+          内嵌Tex输入
+          
+      
+      
+          Ctrl&#43;Shift&#43;D
+          划分单元
+          
+      
+      
+          Ctrl&#43;Shift&#43;M
+          合并单元
+          
+      
+      
+          Ctrl&#43;8
+          初始化单元
+          
+      
+      
+          Ctrl&#43;Enter
+          增加行
+          
+      
+      
+          Ctrl&#43;,
+          增加列
+          
+      
+      
+          Ctrl&#43;Shift&#43;E
+          显示表达式
+          
+      
+      
+          
+          
+          
+      
+      
+          
+          
+          
+      
+  
+
+小技巧
+%代表最近的输出; #n 代表结果 Out[n].">
+    <meta name="generator" content="Hugo 0.147.6">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="Yuki">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/mathematica-%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathematica-%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/">
+  <meta property="og:site_name" content="Yuki&#39;s Blog">
+  <meta property="og:title" content="Yuki&#39;s Blog">
+  <meta property="og:description" content="Mathematica 基础 快捷键 Shift&#43;Enter 计算单元 Alt&#43;. 放弃计算 Ctrl&#43;K 完整指令名 F1 查找所选函数 Alt&#43;/ 取消、注释选择 Ctrl&#43;_ 下标 Ctrl&#43;6 幂，上标 Ctrl&#43;2 根号 Ctrl&#43;/ 除，分数 Ctrl&#43;Shift&#43;K 模板 Alt&#43;1，2，3，4，5，6 N级标题 Ctrl&#43;L 上一个单元的输入 Ctrl&#43;Shift&#43;L 上一个单元的输出 Ctrl&#43;= 内嵌的自由格式输入 Ctrl&#43;4 内嵌Tex输入 Ctrl&#43;Shift&#43;D 划分单元 Ctrl&#43;Shift&#43;M 合并单元 Ctrl&#43;8 初始化单元 Ctrl&#43;Enter 增加行 Ctrl&#43;, 增加列 Ctrl&#43;Shift&#43;E 显示表达式 小技巧 %代表最近的输出; #n 代表结果 Out[n].">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+  <meta itemprop="name" content="Yuki&#39;s Blog">
+  <meta itemprop="description" content="Mathematica 基础 快捷键 Shift&#43;Enter 计算单元 Alt&#43;. 放弃计算 Ctrl&#43;K 完整指令名 F1 查找所选函数 Alt&#43;/ 取消、注释选择 Ctrl&#43;_ 下标 Ctrl&#43;6 幂，上标 Ctrl&#43;2 根号 Ctrl&#43;/ 除，分数 Ctrl&#43;Shift&#43;K 模板 Alt&#43;1，2，3，4，5，6 N级标题 Ctrl&#43;L 上一个单元的输入 Ctrl&#43;Shift&#43;L 上一个单元的输出 Ctrl&#43;= 内嵌的自由格式输入 Ctrl&#43;4 内嵌Tex输入 Ctrl&#43;Shift&#43;D 划分单元 Ctrl&#43;Shift&#43;M 合并单元 Ctrl&#43;8 初始化单元 Ctrl&#43;Enter 增加行 Ctrl&#43;, 增加列 Ctrl&#43;Shift&#43;E 显示表达式 小技巧 %代表最近的输出; #n 代表结果 Out[n].">
+  <meta itemprop="wordCount" content="213">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Yuki&#39;s Blog">
+  <meta name="twitter:description" content="Mathematica 基础 快捷键 Shift&#43;Enter 计算单元 Alt&#43;. 放弃计算 Ctrl&#43;K 完整指令名 F1 查找所选函数 Alt&#43;/ 取消、注释选择 Ctrl&#43;_ 下标 Ctrl&#43;6 幂，上标 Ctrl&#43;2 根号 Ctrl&#43;/ 除，分数 Ctrl&#43;Shift&#43;K 模板 Alt&#43;1，2，3，4，5，6 N级标题 Ctrl&#43;L 上一个单元的输入 Ctrl&#43;Shift&#43;L 上一个单元的输出 Ctrl&#43;= 内嵌的自由格式输入 Ctrl&#43;4 内嵌Tex输入 Ctrl&#43;Shift&#43;D 划分单元 Ctrl&#43;Shift&#43;M 合并单元 Ctrl&#43;8 初始化单元 Ctrl&#43;Enter 增加行 Ctrl&#43;, 增加列 Ctrl&#43;Shift&#43;E 显示表达式 小技巧 %代表最近的输出; #n 代表结果 Out[n].">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Yuki&#39;s Blog
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="关于 页">
+              关于
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/posts/" title="博客 页">
+              博客
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/gallery/" title="画廊 页">
+              画廊
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1"></h1>
+      
+      <p class="tracked"><strong>Yuki</strong>
+      </p>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="mathematica-基础">Mathematica 基础</h1>
+<h3 id="快捷键">快捷键</h3>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Shift+Enter</td>
+          <td>计算单元</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Alt+.</td>
+          <td>放弃计算</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+K</td>
+          <td>完整指令名</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>F1</td>
+          <td>查找所选函数</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Alt+/</td>
+          <td>取消、注释选择</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+_</td>
+          <td>下标</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+6</td>
+          <td>幂，上标</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+2</td>
+          <td>根号</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+/</td>
+          <td>除，分数</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+Shift+K</td>
+          <td>模板</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Alt+1，2，3，4，5，6</td>
+          <td>N级标题</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+L</td>
+          <td>上一个单元的输入</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+Shift+L</td>
+          <td>上一个单元的输出</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+=</td>
+          <td>内嵌的自由格式输入</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+4</td>
+          <td>内嵌Tex输入</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+Shift+D</td>
+          <td>划分单元</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+Shift+M</td>
+          <td>合并单元</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+8</td>
+          <td>初始化单元</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+Enter</td>
+          <td>增加行</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+,</td>
+          <td>增加列</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ctrl+Shift+E</td>
+          <td>显示表达式</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="小技巧">小技巧</h3>
+<p>%代表最近的输出; #<em>n</em> 代表结果 Out[<em>n</em>].</p>
+<p>使用 //<em>function</em>将一个函数应用于尾行</p>
+<h3 id="tip">Tip</h3>
+<p>出现如图中的阴影，说明存在重合的面</p>
+<p><img src="E:%5CWrite%5CMath%5CMathematica.assets%5Cimage-20211102103055989.png" alt="image-20211102103055989"></p>
+<p>修改参数后，经纬线也均匀分布</p>
+<p><img src="E:%5CWrite%5CMath%5CMathematica.assets%5Cimage-20211102103250465.png" alt="image-20211102103250465"></p>
+<p><img src="E:%5CWrite%5CMath%5CMathematica.assets%5Cimage-20211106123730822.png" alt="image-20211106123730822"></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Yuki's Blog 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuki&#39;s Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content on Yuki&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/mathematica-%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mathematica-%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/</guid>
+      <description>&lt;h1 id=&#34;mathematica-基础&#34;&gt;Mathematica 基础&lt;/h1&gt;&#xA;&lt;h3 id=&#34;快捷键&#34;&gt;快捷键&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Shift+Enter&lt;/td&gt;&#xA;          &lt;td&gt;计算单元&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Alt+.&lt;/td&gt;&#xA;          &lt;td&gt;放弃计算&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+K&lt;/td&gt;&#xA;          &lt;td&gt;完整指令名&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;F1&lt;/td&gt;&#xA;          &lt;td&gt;查找所选函数&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Alt+/&lt;/td&gt;&#xA;          &lt;td&gt;取消、注释选择&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+_&lt;/td&gt;&#xA;          &lt;td&gt;下标&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+6&lt;/td&gt;&#xA;          &lt;td&gt;幂，上标&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+2&lt;/td&gt;&#xA;          &lt;td&gt;根号&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+/&lt;/td&gt;&#xA;          &lt;td&gt;除，分数&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+Shift+K&lt;/td&gt;&#xA;          &lt;td&gt;模板&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Alt+1，2，3，4，5，6&lt;/td&gt;&#xA;          &lt;td&gt;N级标题&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+L&lt;/td&gt;&#xA;          &lt;td&gt;上一个单元的输入&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+Shift+L&lt;/td&gt;&#xA;          &lt;td&gt;上一个单元的输出&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+=&lt;/td&gt;&#xA;          &lt;td&gt;内嵌的自由格式输入&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+4&lt;/td&gt;&#xA;          &lt;td&gt;内嵌Tex输入&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+Shift+D&lt;/td&gt;&#xA;          &lt;td&gt;划分单元&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+Shift+M&lt;/td&gt;&#xA;          &lt;td&gt;合并单元&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+8&lt;/td&gt;&#xA;          &lt;td&gt;初始化单元&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+Enter&lt;/td&gt;&#xA;          &lt;td&gt;增加行&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+,&lt;/td&gt;&#xA;          &lt;td&gt;增加列&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ctrl+Shift+E&lt;/td&gt;&#xA;          &lt;td&gt;显示表达式&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;小技巧&#34;&gt;小技巧&lt;/h3&gt;&#xA;&lt;p&gt;%代表最近的输出; #&lt;em&gt;n&lt;/em&gt; 代表结果 Out[&lt;em&gt;n&lt;/em&gt;].&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/mathematical-%E9%97%AE%E9%A2%98%E9%9B%86/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mathematical-%E9%97%AE%E9%A2%98%E9%9B%86/</guid>
+      <description>&lt;h3 id=&#34;通用问题&#34;&gt;通用问题&lt;/h3&gt;&#xA;&lt;h5 id=&#34;重置mathematica&#34;&gt;重置Mathematica&lt;/h5&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://support.wolfram.com/12464&#34;&gt;Wolfram Support Quick Answers: How do I fix common problems by resetting Mathematica to its default configuration?&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;E:%5CWrite%5CMath%5CMathematical%E9%97%AE%E9%A2%98%E9%9B%86.assets%5Cimage-20211115182033568.png&#34; alt=&#34;image-20211115182033568&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/resourcefunction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/resourcefunction/</guid>
+      <description>&lt;h3 id=&#34;resourcefunction&#34;&gt;ResourceFunction&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;resourceFunction[&amp;#34;buckyballGraph&amp;#34;][2]&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/%E5%9B%BE%E5%BD%A2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%9B%BE%E5%BD%A2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%88%A9%E8%90%A8%E5%A6%82%E5%9B%BE%E5%BD%A2/10517125&#34;&gt;利萨如图形_百度百科 (baidu.com)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;超椭圆&lt;/p&gt;&#xA;&lt;p&gt;蚶线&lt;/p&gt;&#xA;&lt;p&gt;摆线，渐开线&lt;/p&gt;&#xA;&lt;p&gt;悬链线&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95/</guid>
+      <description>&lt;h3 id=&#34;射影定理---维基百科自由的百科全书-wikipediaorg&#34;&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E5%B0%84%E5%BD%B1%E5%AE%9A%E7%90%86&#34;&gt;射影定理 - 维基百科，自由的百科全书 (wikipedia.org)&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/c/c6/%E5%B0%84%E5%BD%B1%E5%AE%9A%E7%90%86_2.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;超椭圆---维基百科自由的百科全书-wikipediaorg&#34;&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E8%B6%85%E6%A9%A2%E5%9C%93&#34;&gt;超椭圆 - 维基百科，自由的百科全书 (wikipedia.org)&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/eba3cabee55bc40a87aafc592011d87bc3c23a86&#34; alt=&#34;{\displaystyle |{\frac {x}{a}}|^{n}!+|{\frac {y}{b}}|^{n}!=1}&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Lame_anima.gif/300px-Lame_anima.gif&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/%E6%A4%AD%E5%9C%86/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E6%A4%AD%E5%9C%86/</guid>
+      <description>&lt;h1 id=&#34;椭圆的标准方程的推导&#34;&gt;椭圆的标准方程的推导&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/55078227&#34;&gt;椭圆的标准方程是怎么推导出来的？ - 知乎 (zhihu.com)&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;根据椭圆定义，现有两点 &lt;img src=&#34;https://www.zhihu.com/equation?tex=%28c%2C0%29&#34; alt=&#34;[公式]&#34;&gt; &lt;img src=&#34;https://www.zhihu.com/equation?tex=%28-c%2C0%29&#34; alt=&#34;[公式]&#34;&gt; ，平面上有一点A，A到这两点的距离之和为2a，其中a&amp;gt;c。求A点的轨迹。&lt;/p&gt;&#xA;&lt;p&gt;根据题意，得到下面方程：&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.zhihu.com/equation?tex=%5Csqrt%7B%28x-c%29%5E%7B2%7D%2By%5E%7B2%7D%7D%2B%5Csqrt%7B%28x%2Bc%29%5E%7B2%7D%2By%5E%7B2%7D%7D%3D2a&#34; alt=&#34;[公式]&#34;&gt; (1)&lt;/p&gt;&#xA;&lt;p&gt;两侧同时乘以 &lt;img src=&#34;https://www.zhihu.com/equation?tex=%5Csqrt%7B%28x%2Bc%29%5E%7B2%7D%2By%5E%7B2%7D%7D-%5Csqrt%7B%28x-c%29%5E%7B2%7D%2By%5E%7B2%7D%7D&#34; alt=&#34;[公式]&#34;&gt; ，得到下面这个方程：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Yuki's Blog"
+theme = 'ananke'
+
+
+enableRobotsTXT = true
+defaultContentLanguage = "zh"
+hasCJKLanguage = true
+
+[params]
+author = "Yuki"
+description = "Yuki's Blog"
+keywords = ["博客", "gallery", "beauty"]
+
+mainSections = ['post']
+
+enableRSS = true
+sitemap = { changefreq = "monthly", priority = 0.5 }
+
+
+[menu]
+[[menu.main]]
+    identifier = "blog"
+    name = "博客"
+    url = "/posts/"
+    weight = 2
+
+[[menu.main]]
+name = "画廊"
+url = "/gallery/"
+weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 1

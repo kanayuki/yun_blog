@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuki&#39;s Blog</title>
+    <link>http://localhost:1313/posts/fem/</link>
+    <description>Recent content on Yuki&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 May 2025 17:02:36 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/fem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lpls</title>
+      <link>http://localhost:1313/posts/fem/lpls/</link>
+      <pubDate>Wed, 28 May 2025 17:02:36 +0800</pubDate>
+      <guid>http://localhost:1313/posts/fem/lpls/</guid>
+      <description>&lt;h1 id=&#34;ertegdf&#34;&gt;ertegdf&lt;/h1&gt;&#xA;&lt;p&gt;dfgfdsgs&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Poisson</title>
+      <link>http://localhost:1313/posts/fem/poisson/</link>
+      <pubDate>Wed, 28 May 2025 17:01:54 +0800</pubDate>
+      <guid>http://localhost:1313/posts/fem/poisson/</guid>
+      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;&#xA;&lt;h2 id=&#34;实现&#34;&gt;实现&lt;/h2&gt;&#xA;&lt;h2 id=&#34;应用&#34;&gt;应用&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/fem/complex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fem/complex/</guid>
+      <description>&lt;h3 id=&#34;特殊复数的值&#34;&gt;特殊复数的值&lt;/h3&gt;&#xA;&lt;h5 id=&#34;cosi和sini&#34;&gt;cos(i)和sin(i)&lt;/h5&gt;&#xA;&lt;p&gt;欧拉公式：&#xA;$$&#xA;e^{i \theta} = cos (\theta) + i \space sin (\theta)&#xA;$$&#xA;取θ为负值，带入：&#xA;$$&#xA;e^{-i \theta} = cos (\theta) - i \ sin (\theta)&#xA;$$&#xA;根据（1）±（2）得：&#xA;$$&#xA;\cos (\theta)=\frac{e^{i \theta} + e^{-i \theta}}{2} \&lt;/p&gt;&#xA;&lt;p&gt;\sin (\theta)=i\ \frac{e^{-i \theta} - e^{i \theta}}{2}&#xA;$$&#xA;故：&#xA;$$&#xA;\cos (i) = \frac{e+e^{-1}}{2} \&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,61 @@
+{{ define "main" }}
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+<section class="gallery">
+  <!-- <h1>{{ .Title }}</h1> -->
+  <h1>{{ .Content }}</h1>
+  <div class="gallery-grid">
+    {{ $images := readDir "static/images" }}
+    {{ range $images }}
+    {{ if in .Name ".jpg" | or (in .Name ".png") | or (in .Name ".jpeg") }}
+    <div class="gallery-item">
+
+      <a href="/images/{{ .Name }}" data-lightbox="gallery" data-title="{{ .Name }}">
+        <img src="/images/{{ .Name }}" alt="{{ .Name }}" loading="lazy" />
+      </a>
+
+      <!-- <img src="/images/{{ .Name }}" alt="{{ .Name }}" /> -->
+      <!-- <h3>{{ humanize (replace (trim .Name ".jpg|.png|.jpeg") "-" " ") }}</h3> -->
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+  <style>
+    .gallery {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery-item {
+      text-align: center;
+    }
+
+    .gallery-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .gallery-item h3 {
+      margin: 10px 0 5px;
+      font-size: 1.2em;
+    }
+
+    .gallery-item p {
+      color: #666;
+      font-size: 0.9em;
+    }
+  </style>
+</section>
+{{ end }}

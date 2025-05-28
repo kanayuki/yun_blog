@@ -1,4 +1,4 @@
-baseURL = 'https://kanayuki.github.io/yun_blog/'
+baseURL = 'https://kanayuki.github.io/yun_blog'
 languageCode = 'en-us'
 title = "Yuki's Blog"
 theme = 'ananke'

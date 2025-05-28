@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = "Yuki's Blog"
 theme = 'ananke'
 
+# relativeURLs = true
+canonifyURLs = true
+
 
 enableRobotsTXT = true
 defaultContentLanguage = "zh"

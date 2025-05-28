@@ -1,3 +1,3 @@
 Yun Blog
 
-[](https://kanayuki.github.io/yun_blog)
+[Yun Blog](https://kanayuki.github.io/yun_blog)
